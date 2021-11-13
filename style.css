@@ -1,0 +1,108 @@
+*{
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.box1{
+
+  background-repeat: no-repeat;
+  height: 651px;
+  width:20%;
+  position: fixed;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+
+}
+
+
+.box2{
+  height: 651px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  width: 80%;
+  float: right;
+  top:0%;
+  text-align:center;
+
+}
+
+
+.box3{
+
+  border: 1px solid black;
+  padding: 20px;
+  color: black;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+    height: 651px;
+    width: 80%;
+    float: right;
+}
+
+
+.box4{
+  border: 1px solid black;
+  padding: 20px;
+  color: white;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+    height: 651px;
+    width: 80%;
+    float: right;
+}
+
+
+.profile{
+  padding: :5px;
+  width: 140px;
+  height: 145px;
+  border-radius: 50%;
+  border: 2px blue;
+}
+
+
+header{
+  padding: 5px;
+  text-align: center;
+    background-image: url(background1.jpeg);
+    background-size: cover;
+    height: 651px;
+    width: 80%;
+    float:right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+
+.dp{
+  width:40%;
+  float: right;
+}
+
+
+nav{
+  background-color: black;
+  overflow-y: scroll;
+  position: fixed;
+text-overflow: ellipsis;
+height: 651px;
+width: 20%;
+}
+
+
+nav a{
+ text-decoration: none;
+font-size: 1.5em;
+}
+
+
+h2{
+  text-align: center;
+  text-shadow: 90%;
+  font-size: 2em;
+}
