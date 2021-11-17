@@ -1,0 +1,226 @@
+*{
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0%;
+}
+.box1{
+  width: 20%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  background-color: black;
+}
+
+
+.box2{
+  width: 80%;
+  margin-left: 20%;
+  top: 100%;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.box3{
+  height: 100%;
+  width: 80%;
+  margin-left: 20%;
+  position: fixed;
+  background-color: darkgrey;
+
+
+
+.profile{
+  margin-top:  20px;
+  margin-bottom: 5px;
+  width: 130px;
+  height: 135px;
+  border-width: 8px;
+  border-style:outset;
+  border-color: grey;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+
+
+.dp{
+  width:40%;
+  float: right;
+}
+nav h3{
+  color: white;
+}
+
+nav{
+  overflow-y: scroll;
+  background-color: black;
+  height: 655px;
+
+}
+nav a{
+opacity: 0.7;
+color: white;
+margin-left: 13px;
+text-decoration: none;
+display: block;
+font-size: 22px;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 15px;
+
+}
+
+.fas  {
+  color: grey;
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+.fab {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.6em;
+  padding-left: 60px;
+  text-align: center;
+}
+
+footer{
+  border: 2px solid black;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 3%;
+  left:4%;
+}
+
+
+
+h2{
+  padding: 20px;
+  padding-bottom: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+.getintouch{
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+
+ul{
+ columns: 2;
+ margin:30px;
+
+}
+
+.details{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+}
+
+.bar{
+  position: relative;
+  border: 2px solid darkblue;
+  border-radius: 12px;
+  background-color: skyblue;
+}
+
+.bar div{
+  position: relative;
+  width: 0%;
+  height: 14px;
+  border-radius: 12px;
+  background-color: darkblue;
+}
+
+
+.contact{
+  display: block;
+}
+
+
+#HTML-bar{
+  animation: HTML-fill 2s forwards;
+}
+@keyframes HTML-fill {
+  100%{
+    width:100%;
+  }
+}
+
+#CSS-bar{
+  animation: CSS-fill 2s forwards;
+}
+@keyframes CSS-fill {
+  100%{
+    width:80%;
+  }
+}
+
+
+
+#Java-bar{
+  animation: Java-fill 2s forwards;
+}
+@keyframes Java-fill {
+  100%{
+    width:80%;
+  }
+}
+
+
+
+#C-Prog-bar{
+  animation: C-Prog-fill 2s forwards;
+}
+@keyframes C-Prog-fill {
+  100%{
+    width:70%;
+  }
+}
+
+
+
+#C-bar{
+  animation: C-fill 2s forwards;
+}
+@keyframes C-fill {
+  100%{
+    width:90%;
+  }
+}
+
+
+#JQuery-bar{
+  animation: JQuery-fill 2s forwards;
+}
+@keyframes JQuery-fill {
+  100%{
+    width:30%;
+  }
+}
+
+@media (max-width:991px) {
+body{
+  color: pink;
+}
+.profile{
+  width:90px;
+  height:95px;
+}
+}
+
+@media (min-width:992px)and (max-width:1199px){
+  body{
+    color: violet;
+  }
+}
