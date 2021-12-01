@@ -1,0 +1,316 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.box1{
+  font-size: 2em;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  top: 0px;
+  position: fixed;
+  background-color: black;
+}
+
+
+
+.profile{
+  margin-top:  30px;
+  margin-bottom: 5px;
+  width: 130px;
+  height: 135px;
+  border-width: 8px;
+  border-style:outset;
+  border-color: grey;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+.fas  {
+  color: grey;
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+.fab {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  padding-left: 50px;
+  text-align: center;
+}
+
+
+nav h4{
+  color: white;
+  padding-top: 4px;
+}
+
+nav{
+  overflow-y: scroll;
+  background-color: black;
+  height: 655px;
+
+}
+
+
+.box1 a{
+color: grey;
+margin-left: 13px;
+text-decoration:none;
+text-align: center;
+display: block;
+font-size: 22px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 15px;
+}
+
+  .box1 a:hover{
+   color:blue;
+   background-color: skyblue;
+   text-decoration: none;
+ }
+
+.box1 i:hover{
+  color: blue;
+}
+.box1 .a i:hover{
+  color: blue;
+
+}
+
+
+
+.box2{
+  width: 80%;
+  float: right;
+  margin-left: 20%;
+  padding-left: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.about_me div{
+  padding: 14px;
+  font-size: 1.3em;
+
+}
+.about_me p,h5{
+  text-align: center;
+}
+
+.about{
+  width:40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.box3{
+  height: 655px;;
+  width: 80%;
+  margin-left: 20%;
+  align-items: center;
+  padding:15px;
+  background-color:  #536878	;
+
+}
+.box4{
+width: 800px;
+background-color:#838996;
+margin-top: 40px;
+height: 550px;
+margin-left:100px;
+margin-right:180px;
+
+
+}
+.header{
+  width: 50%;
+  height: 100%;
+  float: right;
+
+}
+
+.bg{
+ height: 100%;
+ width: 100%;
+}
+
+
+h1{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.box4 p{
+  font-family:sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+h2{
+text-align: center;
+font-weight:600;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+h3{
+  padding-bottom: 10px;
+}
+
+ul{
+ columns: 2;
+ margin:50px;
+}
+
+.box-0{
+  background-color:#e7feff;
+  padding-left: 10px;
+  background-blend-mode: lighten;
+}
+
+.bar{
+  position: relative;
+  border: 2px solid darkblue;
+  border-radius: 12px;
+  background-color: skyblue;
+}
+
+.bar div{
+  position: relative;
+  width: 0%;
+  height: 14px;
+  border-radius: 12px;
+  background-color: darkblue;
+}
+
+
+.contact{
+  display: block;
+}
+
+
+#HTML-bar{
+  animation: HTML-fill 5s forwards;
+}
+@keyframes HTML-fill {
+  100%{
+    width:100%;
+  }
+}
+
+#CSS-bar{
+  animation: CSS-fill 5s forwards;
+}
+@keyframes CSS-fill {
+  100%{
+    width:80%;
+  }
+}
+
+
+
+#Java-bar{
+  animation: Java-fill 5s forwards;
+}
+@keyframes Java-fill {
+  100%{
+    width:80%;
+  }
+}
+
+
+
+#C-Prog-bar{
+  animation: C-Prog-fill 5s forwards;
+}
+@keyframes C-Prog-fill {
+  100%{
+    width:70%;
+  }
+}
+
+#C-bar{
+  animation: C-fill 5s forwards;
+}
+@keyframes C-fill {
+  100%{
+    width:90%;
+  }
+}
+
+#JQuery-bar{
+  animation: JQuery-fill 5s forwards;
+}
+@keyframes JQuery-fill {
+  100%{
+    width:30%;
+  }
+}
+
+#leadership-bar{
+  animation: leadership-fill 5s forwards;
+}
+@keyframes leadership-fill {
+  100%{
+    width:100%;
+  }
+}
+
+#problemsolving-bar{
+  animation: problemsolving-fill 5s forwards;
+}
+@keyframes problemsolving-fill {
+  100%{
+    width:80%;
+  }
+}
+
+#criticalthinking-bar{
+  animation: criticalthinking-fill 5s forwards;
+}
+@keyframes criticalthinking-fill {
+  100%{
+    width:80%;
+  }
+}
+
+#teamwork-bar{
+  animation: teamwork-fill 5s forwards;
+}
+@keyframes teamwork-fill {
+  100%{
+    width:90%;
+  }
+}
+
+
+.contact{
+  display: block;
+}
+
+.submit{
+  font-size: 1.3em;
+  padding: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.detail{
+  padding-top: 15px;
+  padding-left: 20px;
+  background-color: #f2f2f2
+}
+.getintouch{
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+}
